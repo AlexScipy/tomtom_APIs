@@ -1,0 +1,866 @@
+{
+    "summary": {
+        "queryType": "NEARBY",
+        "queryTime": 88,
+        "numResults": 10,
+        "offset": 0,
+        "totalResults": 23,
+        "fuzzyLevel": 1,
+        "geoBias": {
+            "lat": 41.75003571270532,
+            "lon": 12.33286540862256
+        }
+    },
+    "results": [
+        {
+            "type": "POI",
+            "id": "hM-o3XW7_RwXBpKCnoD_yA",
+            "score": 95.8136062622,
+            "dist": 4186.389387,
+            "info": "search:ev:3a4c1bbe-3075-48bc-a730-815951568ee5",
+            "poi": {
+                "name": "Acea Innovation S.r.l.",
+                "phone": "+39 800 555 333",
+                "categorySet": [
+                    {
+                        "id": 7309
+                    }
+                ],
+                "categories": [
+                    "electric vehicle station"
+                ],
+                "classifications": [
+                    {
+                        "code": "ELECTRIC_VEHICLE_STATION",
+                        "names": [
+                            {
+                                "nameLocale": "en-US",
+                                "name": "electric vehicle station"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "address": {
+                "streetNumber": "216",
+                "streetName": "Via di Saponara",
+                "municipalitySubdivision": "Acilia",
+                "municipality": "Rome",
+                "neighbourhood": "Acilia Sud",
+                "countrySecondarySubdivision": "Rome",
+                "countrySubdivision": "Lazio",
+                "countrySubdivisionName": "Lazio",
+                "countrySubdivisionCode": "62",
+                "postalCode": "00125",
+                "countryCode": "IT",
+                "country": "Italy",
+                "countryCodeISO3": "ITA",
+                "freeformAddress": "Via di Saponara 216, 00125 Roma",
+                "localName": "Roma"
+            },
+            "position": {
+                "lat": 41.775123,
+                "lon": 12.370501
+            },
+            "viewport": {
+                "topLeftPoint": {
+                    "lat": 41.77602,
+                    "lon": 12.3693
+                },
+                "btmRightPoint": {
+                    "lat": 41.77422,
+                    "lon": 12.37171
+                }
+            },
+            "chargingPark": {
+                "connectors": [
+                    {
+                        "connectorType": "IEC62196Type2CableAttached",
+                        "ratedPowerKW": 43,
+                        "currentA": 32,
+                        "currentType": "AC3"
+                    },
+                    {
+                        "connectorType": "Chademo",
+                        "ratedPowerKW": 60,
+                        "currentA": 125,
+                        "currentType": "DC"
+                    },
+                    {
+                        "connectorType": "IEC62196Type2CCS",
+                        "ratedPowerKW": 60,
+                        "currentA": 125,
+                        "currentType": "DC"
+                    }
+                ]
+            },
+            "dataSources": {
+                "chargingAvailability": {
+                    "id": "3a4c1bbe-3075-48bc-a730-815951568ee5"
+                }
+            }
+        },
+        {
+            "type": "POI",
+            "id": "8BMg5tTjn1u7fqo2DLDv4g",
+            "score": 94.3058166504,
+            "dist": 5694.19137,
+            "info": "search:ev:f89cf9a7-617c-4190-8e64-660390456eca",
+            "poi": {
+                "name": "Acea Innovation S.r.l.",
+                "phone": "+39 800 555 333",
+                "categorySet": [
+                    {
+                        "id": 7309
+                    }
+                ],
+                "categories": [
+                    "electric vehicle station"
+                ],
+                "classifications": [
+                    {
+                        "code": "ELECTRIC_VEHICLE_STATION",
+                        "names": [
+                            {
+                                "nameLocale": "en-US",
+                                "name": "electric vehicle station"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "address": {
+                "streetNumber": "402",
+                "streetName": "Via delle Azzorre",
+                "municipality": "Rome",
+                "neighbourhood": "Ostia Nord",
+                "countrySecondarySubdivision": "Rome",
+                "countrySubdivision": "Lazio",
+                "countrySubdivisionName": "Lazio",
+                "countrySubdivisionCode": "62",
+                "postalCode": "00121",
+                "countryCode": "IT",
+                "country": "Italy",
+                "countryCodeISO3": "ITA",
+                "freeformAddress": "Via delle Azzorre 402, 00121 Roma",
+                "localName": "Roma"
+            },
+            "position": {
+                "lat": 41.739908,
+                "lon": 12.265587
+            },
+            "viewport": {
+                "topLeftPoint": {
+                    "lat": 41.74081,
+                    "lon": 12.26438
+                },
+                "btmRightPoint": {
+                    "lat": 41.73901,
+                    "lon": 12.26679
+                }
+            },
+            "chargingPark": {
+                "connectors": [
+                    {
+                        "connectorType": "IEC62196Type2CableAttached",
+                        "ratedPowerKW": 43,
+                        "currentA": 32,
+                        "currentType": "AC3"
+                    },
+                    {
+                        "connectorType": "IEC62196Type2CCS",
+                        "ratedPowerKW": 50,
+                        "currentA": 125,
+                        "currentType": "DC"
+                    },
+                    {
+                        "connectorType": "Chademo",
+                        "ratedPowerKW": 50,
+                        "currentA": 125,
+                        "currentType": "DC"
+                    }
+                ]
+            },
+            "dataSources": {
+                "chargingAvailability": {
+                    "id": "f89cf9a7-617c-4190-8e64-660390456eca"
+                }
+            }
+        },
+        {
+            "type": "POI",
+            "id": "WTesi_oBX1PAs2oZv6Zx4g",
+            "score": 90.2004623413,
+            "dist": 9799.535803,
+            "info": "search:ev:f31996ee-7fc4-4bac-ae6b-e7da3bb8d798",
+            "poi": {
+                "name": "ChargePoint",
+                "categorySet": [
+                    {
+                        "id": 7309
+                    }
+                ],
+                "url": "https://www.chargepoint.com",
+                "categories": [
+                    "electric vehicle station"
+                ],
+                "classifications": [
+                    {
+                        "code": "ELECTRIC_VEHICLE_STATION",
+                        "names": [
+                            {
+                                "nameLocale": "en-US",
+                                "name": "electric vehicle station"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "address": {
+                "streetNumber": "64",
+                "streetName": "Via del Ponte di Piscina Cupa",
+                "municipality": "Rome",
+                "neighbourhood": "Castel Romano",
+                "countrySecondarySubdivision": "Rome",
+                "countrySubdivision": "Lazio",
+                "countrySubdivisionName": "Lazio",
+                "countrySubdivisionCode": "62",
+                "postalCode": "00128",
+                "countryCode": "IT",
+                "country": "Italy",
+                "countryCodeISO3": "ITA",
+                "freeformAddress": "Via del Ponte di Piscina Cupa 64, 00128 castel romano",
+                "localName": "castel romano"
+            },
+            "position": {
+                "lat": 41.717055,
+                "lon": 12.44238
+            },
+            "viewport": {
+                "topLeftPoint": {
+                    "lat": 41.71795,
+                    "lon": 12.44118
+                },
+                "btmRightPoint": {
+                    "lat": 41.71616,
+                    "lon": 12.44358
+                }
+            },
+            "chargingPark": {
+                "connectors": [
+                    {
+                        "connectorType": "IEC62196Type2CableAttached",
+                        "ratedPowerKW": 38,
+                        "voltageV": 230,
+                        "currentA": 55,
+                        "currentType": "AC3"
+                    },
+                    {
+                        "connectorType": "IEC62196Type2Outlet",
+                        "ratedPowerKW": 21,
+                        "voltageV": 230,
+                        "currentA": 30,
+                        "currentType": "AC3"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "POI",
+            "id": "AGT6cZVS9BCGH2HTrJTgLg",
+            "score": 90.1814117432,
+            "dist": 9818.587123,
+            "info": "search:ev:c163ff72-397b-498a-881d-6ae9649f35c3",
+            "poi": {
+                "name": "ChargePoint",
+                "categorySet": [
+                    {
+                        "id": 7309
+                    }
+                ],
+                "url": "https://www.chargepoint.com",
+                "categories": [
+                    "electric vehicle station"
+                ],
+                "classifications": [
+                    {
+                        "code": "ELECTRIC_VEHICLE_STATION",
+                        "names": [
+                            {
+                                "nameLocale": "en-US",
+                                "name": "electric vehicle station"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "address": {
+                "streetNumber": "64",
+                "streetName": "Via del Ponte di Piscina Cupa",
+                "municipality": "Rome",
+                "neighbourhood": "Castel Romano",
+                "countrySecondarySubdivision": "Rome",
+                "countrySubdivision": "Lazio",
+                "countrySubdivisionName": "Lazio",
+                "countrySubdivisionCode": "62",
+                "postalCode": "00128",
+                "countryCode": "IT",
+                "country": "Italy",
+                "countryCodeISO3": "ITA",
+                "freeformAddress": "Via del Ponte di Piscina Cupa 64, 00128 Castel romano",
+                "localName": "Castel romano"
+            },
+            "position": {
+                "lat": 41.71694,
+                "lon": 12.442566
+            },
+            "viewport": {
+                "topLeftPoint": {
+                    "lat": 41.71784,
+                    "lon": 12.44136
+                },
+                "btmRightPoint": {
+                    "lat": 41.71604,
+                    "lon": 12.44377
+                }
+            },
+            "chargingPark": {
+                "connectors": [
+                    {
+                        "connectorType": "IEC62196Type2CableAttached",
+                        "ratedPowerKW": 38,
+                        "voltageV": 230,
+                        "currentA": 55,
+                        "currentType": "AC3"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "POI",
+            "id": "tQjREuGydZpBLg_T_I7G6w",
+            "score": 87.8599624634,
+            "dist": 12140.032773,
+            "info": "search:ev:991f4be2-e15c-4d51-bd27-e51435e811ee",
+            "poi": {
+                "name": "Acea Innovation S.r.l.",
+                "phone": "+39 800 555 333",
+                "categorySet": [
+                    {
+                        "id": 7309
+                    }
+                ],
+                "categories": [
+                    "electric vehicle station"
+                ],
+                "classifications": [
+                    {
+                        "code": "ELECTRIC_VEHICLE_STATION",
+                        "names": [
+                            {
+                                "nameLocale": "en-US",
+                                "name": "electric vehicle station"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "address": {
+                "streetNumber": "216",
+                "streetName": "Via di Decima",
+                "municipality": "Rome",
+                "neighbourhood": "Torrino",
+                "countrySecondarySubdivision": "Rome",
+                "countrySubdivision": "Lazio",
+                "countrySubdivisionName": "Lazio",
+                "countrySubdivisionCode": "62",
+                "postalCode": "00144",
+                "countryCode": "IT",
+                "country": "Italy",
+                "countryCodeISO3": "ITA",
+                "freeformAddress": "Via di Decima 216, 00144 Roma",
+                "localName": "Roma"
+            },
+            "position": {
+                "lat": 41.812546,
+                "lon": 12.452903
+            },
+            "viewport": {
+                "topLeftPoint": {
+                    "lat": 41.81345,
+                    "lon": 12.4517
+                },
+                "btmRightPoint": {
+                    "lat": 41.81165,
+                    "lon": 12.45411
+                }
+            },
+            "chargingPark": {
+                "connectors": [
+                    {
+                        "connectorType": "IEC62196Type2CableAttached",
+                        "ratedPowerKW": 43,
+                        "currentA": 32,
+                        "currentType": "AC3"
+                    },
+                    {
+                        "connectorType": "IEC62196Type2CCS",
+                        "ratedPowerKW": 50,
+                        "currentA": 125,
+                        "currentType": "DC"
+                    },
+                    {
+                        "connectorType": "Chademo",
+                        "ratedPowerKW": 50,
+                        "currentA": 125,
+                        "currentType": "DC"
+                    }
+                ]
+            },
+            "dataSources": {
+                "chargingAvailability": {
+                    "id": "991f4be2-e15c-4d51-bd27-e51435e811ee"
+                }
+            }
+        },
+        {
+            "type": "POI",
+            "id": "8ugwhHzffv_q50NtXXu36g",
+            "score": 85.883605957,
+            "dist": 14116.386391,
+            "info": "search:ev:40cb45ae-8cb9-44f3-b34b-1d84407a88bf",
+            "poi": {
+                "name": "Acea Innovation S.r.l.",
+                "phone": "+39 800 555 333",
+                "categorySet": [
+                    {
+                        "id": 7309
+                    }
+                ],
+                "categories": [
+                    "electric vehicle station"
+                ],
+                "classifications": [
+                    {
+                        "code": "ELECTRIC_VEHICLE_STATION",
+                        "names": [
+                            {
+                                "nameLocale": "en-US",
+                                "name": "electric vehicle station"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "address": {
+                "streetName": "Via Laurentina, 865",
+                "municipality": "Rome",
+                "neighbourhood": "Cecchignola",
+                "countrySecondarySubdivision": "Rome",
+                "countrySubdivision": "Lazio",
+                "countrySubdivisionName": "Lazio",
+                "countrySubdivisionCode": "62",
+                "postalCode": "00143",
+                "countryCode": "IT",
+                "country": "Italy",
+                "countryCodeISO3": "ITA",
+                "freeformAddress": "Via Laurentina, 865, 00143 Roma",
+                "localName": "Roma"
+            },
+            "position": {
+                "lat": 41.80635,
+                "lon": 12.485438
+            },
+            "viewport": {
+                "topLeftPoint": {
+                    "lat": 41.80725,
+                    "lon": 12.48423
+                },
+                "btmRightPoint": {
+                    "lat": 41.80545,
+                    "lon": 12.48664
+                }
+            },
+            "chargingPark": {
+                "connectors": [
+                    {
+                        "connectorType": "IEC62196Type2CableAttached",
+                        "ratedPowerKW": 43,
+                        "currentA": 32,
+                        "currentType": "AC3"
+                    },
+                    {
+                        "connectorType": "IEC62196Type2CCS",
+                        "ratedPowerKW": 50,
+                        "currentA": 125,
+                        "currentType": "DC"
+                    },
+                    {
+                        "connectorType": "IEC62196Type2Outlet",
+                        "ratedPowerKW": 22,
+                        "currentA": 32,
+                        "currentType": "AC3"
+                    },
+                    {
+                        "connectorType": "Chademo",
+                        "ratedPowerKW": 50,
+                        "currentA": 125,
+                        "currentType": "DC"
+                    }
+                ]
+            },
+            "dataSources": {
+                "chargingAvailability": {
+                    "id": "40cb45ae-8cb9-44f3-b34b-1d84407a88bf"
+                }
+            }
+        },
+        {
+            "type": "POI",
+            "id": "ypaVvky2K6MczdxTggRqWQ",
+            "score": 85.5535507202,
+            "dist": 14446.443484,
+            "info": "search:ev:6b03b6aa-63eb-4767-bbb7-969adc4da336",
+            "poi": {
+                "name": "Acea Innovation S.r.l.",
+                "phone": "+39 800 555 333",
+                "categorySet": [
+                    {
+                        "id": 7309
+                    }
+                ],
+                "categories": [
+                    "electric vehicle station"
+                ],
+                "classifications": [
+                    {
+                        "code": "ELECTRIC_VEHICLE_STATION",
+                        "names": [
+                            {
+                                "nameLocale": "en-US",
+                                "name": "electric vehicle station"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "address": {
+                "streetName": "Viale Cesare Pavese",
+                "municipality": "Rome",
+                "neighbourhood": "Laurentino",
+                "countrySecondarySubdivision": "Rome",
+                "countrySubdivision": "Lazio",
+                "countrySubdivisionName": "Lazio",
+                "countrySubdivisionCode": "62",
+                "postalCode": "00144",
+                "countryCode": "IT",
+                "country": "Italy",
+                "countryCodeISO3": "ITA",
+                "freeformAddress": "Viale Cesare Pavese, 00144 Roma",
+                "localName": "Roma"
+            },
+            "position": {
+                "lat": 41.819714,
+                "lon": 12.479924
+            },
+            "viewport": {
+                "topLeftPoint": {
+                    "lat": 41.82061,
+                    "lon": 12.47872
+                },
+                "btmRightPoint": {
+                    "lat": 41.81881,
+                    "lon": 12.48113
+                }
+            },
+            "chargingPark": {
+                "connectors": [
+                    {
+                        "connectorType": "IEC62196Type2CableAttached",
+                        "ratedPowerKW": 43,
+                        "currentA": 32,
+                        "currentType": "AC3"
+                    },
+                    {
+                        "connectorType": "IEC62196Type2CCS",
+                        "ratedPowerKW": 50,
+                        "currentA": 125,
+                        "currentType": "DC"
+                    },
+                    {
+                        "connectorType": "Chademo",
+                        "ratedPowerKW": 50,
+                        "currentA": 125,
+                        "currentType": "DC"
+                    }
+                ]
+            },
+            "dataSources": {
+                "chargingAvailability": {
+                    "id": "6b03b6aa-63eb-4767-bbb7-969adc4da336"
+                }
+            }
+        },
+        {
+            "type": "POI",
+            "id": "3NGEFwR-fUjwFF6OneWbaQ",
+            "score": 84.3405456543,
+            "dist": 15659.453463,
+            "info": "search:ev:df94e141-7a0d-4c2e-a2c5-434ff6f77059",
+            "poi": {
+                "name": "Acea Innovation S.r.l.",
+                "phone": "+39 800 555 333",
+                "categorySet": [
+                    {
+                        "id": 7309
+                    }
+                ],
+                "categories": [
+                    "electric vehicle station"
+                ],
+                "classifications": [
+                    {
+                        "code": "ELECTRIC_VEHICLE_STATION",
+                        "names": [
+                            {
+                                "nameLocale": "en-US",
+                                "name": "electric vehicle station"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "address": {
+                "streetNumber": "15",
+                "streetName": "Via Simone Martini",
+                "municipality": "Rome",
+                "neighbourhood": "Tre Fontane Quartiere Ardeatino",
+                "countrySecondarySubdivision": "Rome",
+                "countrySubdivision": "Lazio",
+                "countrySubdivisionName": "Lazio",
+                "countrySubdivisionCode": "62",
+                "postalCode": "00142",
+                "countryCode": "IT",
+                "country": "Italy",
+                "countryCodeISO3": "ITA",
+                "freeformAddress": "Via Simone Martini 15, 00142 Roma",
+                "localName": "Roma"
+            },
+            "position": {
+                "lat": 41.830001,
+                "lon": 12.488344
+            },
+            "viewport": {
+                "topLeftPoint": {
+                    "lat": 41.8309,
+                    "lon": 12.48714
+                },
+                "btmRightPoint": {
+                    "lat": 41.8291,
+                    "lon": 12.48955
+                }
+            },
+            "chargingPark": {
+                "connectors": [
+                    {
+                        "connectorType": "IEC62196Type2CableAttached",
+                        "ratedPowerKW": 43,
+                        "currentA": 32,
+                        "currentType": "AC3"
+                    },
+                    {
+                        "connectorType": "IEC62196Type2CCS",
+                        "ratedPowerKW": 50,
+                        "currentA": 125,
+                        "currentType": "DC"
+                    },
+                    {
+                        "connectorType": "Chademo",
+                        "ratedPowerKW": 50,
+                        "currentA": 125,
+                        "currentType": "DC"
+                    }
+                ]
+            },
+            "dataSources": {
+                "chargingAvailability": {
+                    "id": "df94e141-7a0d-4c2e-a2c5-434ff6f77059"
+                }
+            }
+        },
+        {
+            "type": "POI",
+            "id": "GuPXvs1TDbdi1jbeJZt7rg",
+            "score": 83.9774017334,
+            "dist": 16022.598488,
+            "info": "search:ev:18890173-01e6-4d5b-889f-df7afdbfbaec",
+            "poi": {
+                "name": "Acea Innovation S.r.l.",
+                "phone": "+39 800 555 333",
+                "categorySet": [
+                    {
+                        "id": 7309
+                    }
+                ],
+                "categories": [
+                    "electric vehicle station"
+                ],
+                "classifications": [
+                    {
+                        "code": "ELECTRIC_VEHICLE_STATION",
+                        "names": [
+                            {
+                                "nameLocale": "en-US",
+                                "name": "electric vehicle station"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "address": {
+                "streetNumber": "20",
+                "streetName": "Via Benedetto Croce",
+                "municipality": "Rome",
+                "neighbourhood": "Tormarancia Quartiere Ardeatino",
+                "countrySecondarySubdivision": "Rome",
+                "countrySubdivision": "Lazio",
+                "countrySubdivisionName": "Lazio",
+                "countrySubdivisionCode": "62",
+                "postalCode": "00142",
+                "countryCode": "IT",
+                "country": "Italy",
+                "countryCodeISO3": "ITA",
+                "freeformAddress": "Via Benedetto Croce 20, 00142 Roma",
+                "localName": "Roma"
+            },
+            "position": {
+                "lat": 41.841035,
+                "lon": 12.482725
+            },
+            "viewport": {
+                "topLeftPoint": {
+                    "lat": 41.84193,
+                    "lon": 12.48152
+                },
+                "btmRightPoint": {
+                    "lat": 41.84014,
+                    "lon": 12.48393
+                }
+            },
+            "chargingPark": {
+                "connectors": [
+                    {
+                        "connectorType": "IEC62196Type2CableAttached",
+                        "ratedPowerKW": 43,
+                        "currentA": 32,
+                        "currentType": "AC3"
+                    },
+                    {
+                        "connectorType": "IEC62196Type2CCS",
+                        "ratedPowerKW": 50,
+                        "currentA": 125,
+                        "currentType": "DC"
+                    },
+                    {
+                        "connectorType": "Chademo",
+                        "ratedPowerKW": 50,
+                        "currentA": 125,
+                        "currentType": "DC"
+                    }
+                ]
+            },
+            "dataSources": {
+                "chargingAvailability": {
+                    "id": "18890173-01e6-4d5b-889f-df7afdbfbaec"
+                }
+            }
+        },
+        {
+            "type": "POI",
+            "id": "TLjB-LF98gmWLz00Ixj8Pg",
+            "score": 83.7538452148,
+            "dist": 16246.152558,
+            "info": "search:ev:4ae4435e-5fdb-4627-a59d-7eb2fdf2bea2",
+            "poi": {
+                "name": "Acea Innovation S.r.l.",
+                "phone": "+39 800 555 333",
+                "categorySet": [
+                    {
+                        "id": 7309
+                    }
+                ],
+                "categories": [
+                    "electric vehicle station"
+                ],
+                "classifications": [
+                    {
+                        "code": "ELECTRIC_VEHICLE_STATION",
+                        "names": [
+                            {
+                                "nameLocale": "en-US",
+                                "name": "electric vehicle station"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "address": {
+                "streetNumber": "35",
+                "streetName": "Via Gaetano Trezza",
+                "municipality": "Rome",
+                "neighbourhood": "Tormarancia Quartiere Ardeatino",
+                "countrySecondarySubdivision": "Rome",
+                "countrySubdivision": "Lazio",
+                "countrySubdivisionName": "Lazio",
+                "countrySubdivisionCode": "62",
+                "postalCode": "00142",
+                "countryCode": "IT",
+                "country": "Italy",
+                "countryCodeISO3": "ITA",
+                "freeformAddress": "Via Gaetano Trezza 35, 00142 Roma",
+                "localName": "Roma"
+            },
+            "position": {
+                "lat": 41.842273,
+                "lon": 12.484852
+            },
+            "viewport": {
+                "topLeftPoint": {
+                    "lat": 41.84317,
+                    "lon": 12.48364
+                },
+                "btmRightPoint": {
+                    "lat": 41.84137,
+                    "lon": 12.48606
+                }
+            },
+            "chargingPark": {
+                "connectors": [
+                    {
+                        "connectorType": "IEC62196Type2CableAttached",
+                        "ratedPowerKW": 43,
+                        "currentA": 32,
+                        "currentType": "AC3"
+                    },
+                    {
+                        "connectorType": "IEC62196Type2CCS",
+                        "ratedPowerKW": 50,
+                        "currentA": 125,
+                        "currentType": "DC"
+                    },
+                    {
+                        "connectorType": "Chademo",
+                        "ratedPowerKW": 50,
+                        "currentA": 125,
+                        "currentType": "DC"
+                    }
+                ]
+            },
+            "dataSources": {
+                "chargingAvailability": {
+                    "id": "4ae4435e-5fdb-4627-a59d-7eb2fdf2bea2"
+                }
+            }
+        }
+    ]
+}
