@@ -2,8 +2,31 @@ import tkinter as tk
 from tkinter import ttk
 import requests
 import json
+from time import time
 import webbrowser
 import os
+from flask import Flask, request, jsonify, render_template
+import threading
+
+
+app = Flask(__name__)
+
+selected_coords = None
+
+@app.route('/get_coords', methods=['POST'])
+def get_coords():
+    global selected_coords
+    data = request.json
+    selected_coords = (data['lat'], data['lng'])
+    return jsonify(success=True)
+
+@app.route('/map')
+def map():
+    return render_template('map.html')
+
+def run_flask():
+    app.run(port=5000)
+
 
 class TomTomNearbySearch:
     def __init__(self, api_key, latitude, longitude, radius=10000):
@@ -248,7 +271,21 @@ class GUI:
         # Open a new window with a map (e.g. Google Maps)
         # Allow user to select a location and get the latitude and longitude
         # Update the entries with the selected location
-        pass  # TO DO: implement map selection
+        # TO DO: implement map selection
+        global selected_coords
+        selected_coords = None
+        # Open the map in the default web browser
+        webbrowser.open('http://localhost:5000/map')#'https://maps.google.com/?authuser=0'
+        # Wait until the user selects a location
+        while selected_coords is None:
+            self.master.update()
+            time.sleep(0.1)
+        # Update the entries with the selected location
+        lat, long = selected_coords
+        self.map_lat_entry.delete(0, tk.END)
+        self.map_lat_entry.insert(0, lat)
+        self.map_lon_entry.delete(0, tk.END)
+        self.map_lon_entry.insert(0, long)
 
     def search(self):
         api_key = self.api_key_entry.get()
@@ -261,6 +298,10 @@ class GUI:
             search.save_to_json_file('response.json')
             search.generate_html_output('output.html')
             search.open_html_in_browser('output.html')
+
+# Esegui il server Flask in un thread separato
+threading.Thread(target=run_flask).start()
+
 
 root = tk.Tk()
 gui = GUI(root)
