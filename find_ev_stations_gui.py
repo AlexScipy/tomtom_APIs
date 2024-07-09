@@ -62,6 +62,10 @@ class TomTomNearbySearch:
                             color: #fff;
                             margin: 0;
                             padding: 0;
+                            background-image: url('images/map_wallpaper.jpg'); /* Aggiungi qui il percorso della tua immagine */
+                            background-size: cover; /* Adatta l'immagine per coprire l'intera pagina */
+                            background-repeat: no-repeat; /* Evita la ripetizione dell'immagine */
+                            background-position: center; /* Centra l'immagine */
                         }
                         h1 {
                             background-color: #222;
